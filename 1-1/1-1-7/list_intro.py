@@ -13,3 +13,21 @@ print(list1[2])
 # Access the list via the ID
 list2[0] = "Goodbye"
 print(list2[0])
+
+
+# Using a Loop with a List
+for num in list1:
+    # Printing elements - list is unchanged
+    # print(num)
+
+    #Popping an element removes it, but lets you access it
+    print(list1.pop())
+    print(list1)
+
+
+
+
+
+
+
+
