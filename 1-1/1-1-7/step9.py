@@ -12,13 +12,14 @@ turtle_colors = ["red", "blue", "green", "orange", "purple", "gold"]
 
 for s in turtle_shapes:
   t = trtl.Turtle(shape=s)
+  t.color(turtle_colors.pop())
   my_turtles.append(t)
 
-#
+# Starting values for x and y
 startx = 0
 starty = 0
 
-#
+# Loop through the turtles and draw.
 for t in my_turtles:
   t.penup()
   t.goto(startx, starty)
@@ -26,7 +27,7 @@ for t in my_turtles:
   t.forward(50)
   t.pendown()
 
-#
+  # Adjusting the starting values for the next turtle
   startx = t.xcor()
   starty = t.ycor()
 
