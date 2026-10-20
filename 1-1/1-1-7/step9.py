@@ -19,17 +19,26 @@ for s in turtle_shapes:
 startx = 0
 starty = 0
 
+# Direction of turtle
+direction = 90
+
 # Loop through the turtles and draw.
 for t in my_turtles:
   t.penup()
   t.goto(startx, starty)
+  t.setheading(direction)
+  t.pendown()
   t.right(45)
   t.forward(50)
-  t.pendown()
+
+
+  # Change direction to the heading of the last turtle
+  direction = t.heading()
 
   # Adjusting the starting values for the next turtle
   startx = t.xcor()
   starty = t.ycor()
+
 
 wn = trtl.Screen()
 wn.mainloop()
