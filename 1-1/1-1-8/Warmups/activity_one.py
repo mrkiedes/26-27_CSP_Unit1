@@ -16,15 +16,7 @@ The speed limit is 30. Write an if / elif / else that prints "Slow down" if spee
 
 # Complete Task 2 Here
 
-'''
-Task 3  Predict the Output
-Trace through your code by hand. What prints for each set of values?
-With "red" and 35:   Task 1 prints ____________   Task 2 prints ____________
-With "green" and 25:   Task 1 prints ____________   Task 2 prints ____________
 
-'''
-
-# Complete Task 3 Here
 
 
 '''
