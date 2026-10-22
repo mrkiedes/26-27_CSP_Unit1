@@ -7,7 +7,10 @@ Write an if / else statement that prints "Stop" when light is "red", and prints 
 '''
 
 # Complete Task 1 Here
-
+if light == "red":
+    print("Stop")
+else:
+    print("Go")
 
 '''
 Task 2  Speed Check
@@ -15,15 +18,17 @@ The speed limit is 30. Write an if / elif / else that prints "Slow down" if spee
 '''
 
 # Complete Task 2 Here
-
-
-
+if speed > 30:
+    print("Slow down")
+elif speed < 20:
+    print("Speed up")
+else:
+    print("Just right")
 
 '''
 Challenge (if you finish early)
 Write a single condition using and that prints "Go ahead" only when the light is green and the speed is less than 30.
-
 '''
-
-
 # Complete Challenge Here
+if light == "green" and speed < 30:
+    print("Go ahead")
